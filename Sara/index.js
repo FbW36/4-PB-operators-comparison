@@ -27,4 +27,17 @@ let mangoes = 5 ;
 console.log(mangoes * apples > mangoes + oranges ? 'true' : 'false') ;
 
 // 7
-console.log(mangoes - apples < oranges / mangoes ? 'true' : 'false') ; 
+console.log(apples - mangoes < oranges / mangoes ? 'true' : 'false') ; 
+
+// 8 
+console.log(apples === oranges === mangoes ? 'true' : 'false') ; 
+
+// 9
+console.log(20 % 5) ; // 0
+console.log(30 % 5) ; // 0
+console.log(20 % 5 === 30 % 5 ? 'true' : 'false') ; 
+
+// 10 
+console.log(mangoes + apples > oranges - mangoes ? 'true' : 'false') ;
+
+console.log(mangoes + apples >! oranges - mangoes ? 'true' : 'false') ;
