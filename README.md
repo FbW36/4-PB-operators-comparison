@@ -1,4 +1,5 @@
 # 4-PB-operators-comparison
+
 # Programming Basics: Comparison Operators
 
 These exercises are aimed at making you familiar with the comparison operators. **Print all your checks to the console.**
@@ -7,7 +8,7 @@ These exercises are aimed at making you familiar with the comparison operators. 
 
 1. Check whether apples and oranges are equal.
 
-2. Check whether apples and oranges are *not* equal.
+2. Check whether apples and oranges are _not_ equal.
 
 3. Check whether apples is greater than oranges.
 
