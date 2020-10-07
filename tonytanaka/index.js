@@ -61,14 +61,9 @@ console.log(
 );
 
 // exercise 10
-let mangPlusApples = mangoes + apples;
-console.log("mangoes + apples = ", mangPlusApples);
-let orangesMinusMangoes = oranges - mangoes;
-console.log("oranges - mangoes = ", orangesMinusMangoes);
-console.log(
-  "(Mangoes + apples) is greater than (Oranges - Mangoes)?",
-  mangPlusApples > orangesMinusMangoes ? "true" : "false"
-);
+console.log("EXERCISE 10");
+console.log(mangoes + apples > oranges - mangoes);
+console.log(mangoes + apples >= oranges - mangoes);
 
 // exercise 11
 // had already done before reading this
