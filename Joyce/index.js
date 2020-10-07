@@ -27,7 +27,7 @@ let mul = mangoes * apples;
 let add = mangoes + oranges;
 let res6 = mul > add;
 console.log(
-  "6. Are the result of multipling mangoes and apples greater than mangoes added to oranges?",
+  "6. Is the result of multipling mangoes and apples greater than mangoes added to oranges?",
   res6
 );
 
@@ -36,7 +36,7 @@ let sub = apples - mangoes;
 let div = oranges / mangoes;
 let res7 = sub < div;
 console.log(
-  "7. Are the result of subtracting mangoes from apples less than oranges divided by mangoes?",
+  "7. Is the result of subtracting mangoes from apples less than oranges divided by mangoes?",
   res7
 );
 
@@ -56,8 +56,7 @@ console.log(
 // 10
 let add1 = mangoes + apples;
 let sub1 = oranges - mangoes;
-let res10 = add1 > sub1 ? "Not" : "true";
 console.log(
-  "10. Are mangoes added to apples greater than oranges minus mangoes. If it is not, then give a result of true.",
-  res10
+  "10. Are mangoes added to apples greater than oranges minus mangoes?",
+  add1 >= sub1
 );
