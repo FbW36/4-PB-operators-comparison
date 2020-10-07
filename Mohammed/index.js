@@ -12,11 +12,11 @@ comp = apples != orange ? "They are not equal" : "They are equal";
 console.log(comp);
 
 // 3.
-comp = apples > orange ? "Apple is greater than Orange" : "Orange is greater than Apple";
+comp = apples > orange ? "Apple is greater than Orange" : "Apple is NOT greater than Orange";
 console.log(comp);
 
 // 4.
-comp = apples <= orange ? "Apple is smaller than or equals to Orange" : "Orange is smaller than or equals to Apple";
+comp = apples <= orange ? "Apple is smaller than or equals to Orange" : "Apple is NOT smaller than or equals to Orange";
 console.log(comp);
 
 // 5.
@@ -41,5 +41,5 @@ comp = (apples % mangos) == (orange % mangos) ? "the remainder of apples divided
 console.log(comp);
 
 // 10
-comp = (mangos + apples) == (orange - mangos) ? "y" : "n";
+comp = (mangos + apples) >= (orange - mangos) ? true : false;
 console.log(comp);
