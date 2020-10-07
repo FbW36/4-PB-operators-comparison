@@ -7,8 +7,8 @@ console.log('the result of this comparison is ' + (apples == oranges));
 console.log('the result of this comparison is ' + (apples != oranges));
 // if apples greater
 console.log('the result of this comparison is ' + (apples > oranges));
-//if apples are less
-console.log('the result of this comparison is ' + (apples < oranges));
+//if apples are less or equal
+console.log('the result of this comparison is ' + (apples <= oranges));
 // if oranges are greater
 console.log('the result of this comparison is ' + (oranges > apples));
 
@@ -25,5 +25,5 @@ console.log('the result of this comparison is ' + compare2);
 let compare3 = (apples / mangos) == (oranges / mangos);
 console.log('the result of this comparison is ' + compare3);
 // Check whether mangoes added to apples is greater than oranges minus mangoes. If it is not, find an operator which will give a result of true
-let compare4 = (mangos + apples) > (oranges - mangos);
+let compare4 = (mangos + apples) >= (oranges - mangos);
 console.log('the result of this comparison is ' + compare4);
