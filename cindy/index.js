@@ -47,7 +47,7 @@ let res1 = value1 % 2 == 0 ? "true" : "false";
 
 let value2 = oranges / mangoes;
 let res2 = value2 % 2 == 0 ? "true" : "false";
-console.log(value1 == value2 ? "equals" : "not equals");
+console.log(apples & mangoes) == oranges % mangoes;
 
 //10. Check whether mangoes added to apples is greater than oranges minus mangoes. If it is not, find an operator which will give a result of true.
 console.log(mangoes + apples >= oranges - mangoes ? "true" : "false");
