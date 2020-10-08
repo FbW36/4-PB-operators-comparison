@@ -53,7 +53,4 @@ console.log(
   mangoes + apples > oranges - mangoes
 );
 
-console.log(apples + mangoes > oranges - mangoes ? true : false);
-console.log(apples + mangoes === oranges - mangoes ? true : false);
-
-console.log(apples + mangoes > oranges - mangoes ? true : false);
+console.log(apples + mangoes >= oranges - mangoes);
