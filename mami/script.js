@@ -37,14 +37,14 @@ console.log(
 
 console.log(
   "are mangoes, apples and oranges  equal? ",
-  mangoes == apples && mangoes == oranges && apples == oranges
+  (mangoes === apples) === mangoes
 );
 
 // 9
 
 console.log(
   " are the remainder of apples divided by mangoes and the remainder of oranges divided by mangoes  equal? ",
-  apples % mangoes == oranges % mangoes
+  apples % mangoes === oranges % mangoes
 );
 // 10
 
@@ -53,5 +53,7 @@ console.log(
   mangoes + apples > oranges - mangoes
 );
 
-let k = mangoes + apples == oranges - mangoes;
-console.log(k);
+console.log(apples + mangoes > oranges - mangoes ? true : false);
+console.log(apples + mangoes === oranges - mangoes ? true : false);
+
+console.log(apples + mangoes > oranges - mangoes ? true : false);
