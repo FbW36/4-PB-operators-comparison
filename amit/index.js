@@ -3,15 +3,19 @@ let oranges = 30;
 let equal = apples == oranges;
 console.log(equal); //false
 
-let equal2 = apples != oranges;
+// 2
+let equal2 = apples !== oranges;
 console.log(equal2); // true
 
+// 3
 let equal3 = apples > oranges;
 console.log(equal3);
 
+// 4
 let equal4 = apples <= oranges;
 console.log(equal4);
 
+//5
 let equal5 = oranges > apples;
 console.log(equal5);
 
